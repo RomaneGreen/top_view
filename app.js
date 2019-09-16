@@ -52,8 +52,8 @@ function bikeSelect () {
 
     console.log(bikeOptions["products"][0])
     let biked = bikeOptions["products"][0]
-    var birds = "four"
-    var ele = document.getElementById('sel');
+    let birds = "four"
+    let ele = document.getElementById('sel');
     for (var i = 0; i < birds.length; i++) {
         // POPULATE SELECT ELEMENT WITH JSON.
         
@@ -67,7 +67,7 @@ function bikeSelect () {
 
 function show(ele) {
     // GET THE SELECTED VALUE FROM <select> ELEMENT AND SHOW IT.
-    var msg = document.getElementById('msg');
+    let msg = document.getElementById('msg');
     msg.innerHTML = 'Selected Bike: <b>' + ele.options[ele.selectedIndex].text + '</b> </br>' +
           '</b>';
 }
@@ -121,61 +121,3 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
   });
 
 
-// let bikeRentals = {
-
-//     "products": [
-//       {
-//         "id": 1,
-//         "name": "Adult Male Bike",
-//         "price": 20.50,
-//         "image": "http://via.placeholder.com/250x250?text=Adult%20Male%20Bike",
-//         "product_type": "bike"
-//       },
-//       {
-//         "id": 2,
-//         "name": "Adult Female Bike",
-//         "price": 20.50,
-//         "image": "http://via.placeholder.com/250x250?text=Adult%20Female%20Bike",
-//         "product_type": "bike"
-//       },
-//       {
-//         "id": 3,
-//         "name": "Kids Unisex Bike",
-//         "price": 12.75,
-//         "image": "http://via.placeholder.com/250x250?text=Kids%20Unisex%20Bike",
-//         "product_type": "bike"
-//       },
-//       {
-//         "id": 4,
-//         "name": "Adult Unisex Helmet",
-//         "price": 4.00,
-//         "image": "http://via.placeholder.com/250x250?text=Adult%20Unisex%20Helmet",
-//         "product_type": "accessory"
-//       },
-//       {
-//         "id": 5,
-//         "name": "Kids Unisex Helmet",
-//         "price": 3.50,
-//         "image": "http://via.placeholder.com/250x250?text=Kids%20Unisex%20Helmet",
-//         "product_type": "accessory"
-//       },
-//       {
-//         "id": 6,
-//         "name": "Insurance",
-//         "price": 9.99,
-//         "image": "http://via.placeholder.com/250x250?text=Insurance",
-//         "product_type": "addon"
-//       }
-//     ]
-  
-// }
-
-
-
-
-// console.log(bikeRentals["products"][0])
-
-
-//   let data = document.getElementById('outputdata')
-  
-//   data.innerHTML = JSON.stringify(bikeRentals["products"][0])

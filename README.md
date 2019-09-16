@@ -1,2 +1,2 @@
 # top_view
-Reservation page for topview
+Bike Reservation page for topview

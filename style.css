@@ -71,6 +71,7 @@ label {
   left: 13px;
   color: rgba(255, 255, 255, 0.5);
   transition: all 0.25s ease;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   pointer-events: none;
   font-size: 22px;
@@ -152,4 +153,26 @@ textarea {
 .forgot {
   margin-top: -20px;
   text-align: right;
+}
+
+
+
+.test {
+  color: red;
+}
+
+#msg {
+
+  color: white !important;
+}
+
+label[for="bikeselection"] {
+
+  
+  
+}
+
+#sel {
+  margin-left: 9rem;
+  margin-top: .6rem;
 }

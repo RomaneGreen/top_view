@@ -1,7 +1,7 @@
 
 
 let bikeRentals = {
-    
+
     "products": [
       {
         "id": 1,
@@ -47,3 +47,8 @@ let bikeRentals = {
       }
     ]
   }
+
+
+  let data = document.getElementById('outputdata')
+
+  data.innerHTML = "Woooooahhhh"

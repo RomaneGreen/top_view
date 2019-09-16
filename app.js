@@ -46,9 +46,12 @@ let bikeRentals = {
         "product_type": "addon"
       }
     ]
-  }
+  
+}
+
+console.log(bikeRentals["products"][0])
 
 
   let data = document.getElementById('outputdata')
-
-  data.innerHTML = "Woooooahhhh"
+  
+  data.innerHTML = JSON.stringify(bikeRentals["products"][0])

@@ -49,9 +49,9 @@ let bikeRentals = {
   
 }
 
-console.log(bikeRentals["products"][0])
+// console.log(bikeRentals["products"][0])
 
 
-  let data = document.getElementById('outputdata')
+//   let data = document.getElementById('outputdata')
   
-  data.innerHTML = JSON.stringify(bikeRentals["products"][0])
+//   data.innerHTML = JSON.stringify(bikeRentals["products"][0])
